@@ -12,10 +12,15 @@ Churn estimation empowers telecommunications companies to proactively identify c
 The project utilizes a dataset containing information about Telco customers. Key features within the dataset include:
 
 -Customer demographics: Customer ID, gender, senior citizen status (Yes/No)
+
 -Service utilization: Phone service (Yes/No), multiple phone lines (Yes/No/No service), internet service type (DSL, Fiber optic, No), additional services like online security, online backup, device protection, tech support, streaming TV, and streaming movies (all Yes/No with appropriate service dependencies)
+
 -Contract details: Contract term (Month-to-month, One year, Two year)
+
 -Billing information: Paperless billing (Yes/No), payment method (Electronic check, Mailed check, Bank transfer, Credit card)
+
 -Customer financial data: Monthly charges and total charges incurred
+
 -Target variable: Churn status (Yes/No)
 
 # Result
