@@ -1,26 +1,22 @@
-# Churn-Prediction-Telco
+# Churn Prediction for Telco Customers
+# Project Overview:
 
-Telco Churn Forecasting refers to the process of estimating which customers of a telecommunications company are most likely to cancel their services in the near future. Churn estimation can be performed by analyzing the factors that cause loss of customers. Using machine learning algorithms, Telco Churn Prediction models can be developed to analyze customer data and make accurate predictions about which customers are most likely to leave. This information can then be used to proactively reach customers at risk of leaving and offer incentives to stay, ultimately reducing churn and increasing customer retention rates.
+This project tackles the challenge of Telco customer churn prediction. Churn refers to a customer leaving a telecommunications company's services. By leveraging machine learning algorithms and analyzing customer data, we aim to develop a model that accurately forecasts which customers are at risk of churning.
 
-# Dataset Story
-CustomerId:	Customer ID
-Gender:	Gender of the customer
-SeniorCitizen:	Whether the customer is a senior citizen or not (1, 0)
-Partner:	Whether the customer has a partner or not (Yes, No)
-Dependents:	Whether the customer has dependents or not (Yes, No)
-tenure:	Number of months the customer has stayed with the company
-PhoneService:	Whether the customer has a phone service or not (Yes, No)
-MultipleLines	:Whether the customer has multiple lines or not (Yes, No, No phone service)
-InternetService	:Customer's internet service provider (DSL, Fiber optic, No)
-OnlineSecurity:	Whether the customer has online security or not (Yes, No, No internet service)
-OnlineBackup:	Whether the customer has online backup or not (Yes, No, No internet service)
-DeviceProtection:	Whether the customer has device protection or not (Yes, No, No internet service)
-TechSupport:	Whether the customer has tech support or not (Yes, No, No internet service)
-StreamingTV:	Whether the customer has streaming TV or not (Yes, No, No internet service)
-StreamingMovies:	Whether the customer has streaming movies or not (Yes, No, No internet service)
-Contract:	The contract term of the customer (Month-to-month, One year, Two year)
-PaperlessBilling:	Whether the customer has paperless billing or not (Yes, No)
-PaymentMethod:	The customer's payment method (Electronic check, Mailed check, Bank transfer, Credit card)
-MonthlyCharges:	The amount charged to the customer monthly
-TotalCharges:	The total amount charged to the customer
-Churn	Whether: the customer has churned or not (Yes or No)
+# The Significance of Churn Prediction:
+
+Churn estimation empowers telecommunications companies to proactively identify customers likely to cancel their services. Equipped with this knowledge, companies can implement targeted retention strategies, such as personalized offers and incentives, to keep valuable customers engaged and minimize churn. This ultimately leads to higher customer retention rates and increased revenue.
+
+# Understanding the Dataset:
+
+The project utilizes a dataset containing information about Telco customers. Key features within the dataset include:
+
+-Customer demographics: Customer ID, gender, senior citizen status (Yes/No)
+-Service utilization: Phone service (Yes/No), multiple phone lines (Yes/No/No service), internet service type (DSL, Fiber optic, No), additional services like online security, online backup, device protection, tech support, streaming TV, and streaming movies (all Yes/No with appropriate service dependencies)
+-Contract details: Contract term (Month-to-month, One year, Two year)
+-Billing information: Paperless billing (Yes/No), payment method (Electronic check, Mailed check, Bank transfer, Credit card)
+-Customer financial data: Monthly charges and total charges incurred
+-Target variable: Churn status (Yes/No)
+
+# Result
+Overall, this project explores the potential of machine learning for predicting customer churn in the telecommunications industry. By building a robust prediction model, we can empower companies to retain valuable customers and improve their bottom line.
